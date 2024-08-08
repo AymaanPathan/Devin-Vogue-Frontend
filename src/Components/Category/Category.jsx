@@ -2,8 +2,8 @@ import { useContext } from "react";
 import { Link } from "react-router-dom";
 import CategoryCard from "./CategoryCard";
 import "./category.css";
-import men from "./men.png";
-import women from "./women.png";
+import men from "./Men.png";
+import women from "./Women.png";
 import { Productcontext } from "../../Context/Product";
 
 export default function Category() {
