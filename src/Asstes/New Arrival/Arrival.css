@@ -1,0 +1,31 @@
+@media (max-width:600px) {
+    .collection-div{
+        margin-top: 6vw;
+    }
+    .collection-heading{
+        font-size: 5vw;
+        margin-left: 3vw;
+        text-align: center;
+    }
+    .box-div {
+        margin-left: 2vw;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 12px;
+        align-items: center;
+        padding-top: 0;
+    }
+}
+
+.slider-item {
+  transition: transform 0.3s ease;
+}
+
+.slider-item.tilt {
+  transform: translateY(-5px) scale(1.02);
+}
+
+
+
+/* Card */
