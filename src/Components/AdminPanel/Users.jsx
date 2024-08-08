@@ -71,7 +71,7 @@ export default function Users() {
   );
 
   return (
-    <div className="flex items-center gap-4">
+    <div className="flex gap-4">
       <SideBar />
       <div className="py-8">
         <h2 className="text-2xl font-semibold leading-tight">Users</h2>
